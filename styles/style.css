@@ -1,78 +1,106 @@
 html {
-    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
-    font-family: 'Cairo', sans-serif; /* this should be the rest of the output you got from Google fonts */ 
-    background-color:aliceblue;
-  }
+  font-size: 11px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: 'Cairo', sans-serif; /* this should be the rest of the output you got from Google fonts */ 
+  background-color:aliceblue;
+}
 
-  .header-bg {
-    top: 0;
-    position: relative;
-    padding-left: 0%;
-  }
+.header-bg {
+  top: 0;
+  position: relative;
+  padding-left: 0%;
+}
 
-  .header-text {
-    font-size:20vw;
-    text-align:left;
-  }
+.header-text {
+  font-size:20vw;
+  text-align:left;
+}
 
-  h1 {
-    color:rgb(252, 255, 240);
-    font-family: 'Space Mono', monospace; /* this should be the rest of the output you got from Google fonts */ 
-  }
+h1 {
+  color:rgb(252, 255, 240);
+  font-family: 'Space Mono', monospace; /* this should be the rest of the output you got from Google fonts */ 
+}
 
-  h4 {
-    text-align: center;
-  }
+h4 {
+  text-align: center;
+}
 
-  .nav-icon {
-    margin-bottom: 4px;
-  }
+.nav-icon {
+  margin-bottom: 4px;
+}
 
-  .container {
-    position: relative;
-    padding-right: 0;
-    padding-left: 0;
-    margin-right: 0;
-    margin-left: 0;
-  }
-  
-  /* Bottom left text */
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
-  
-  /* Top left text */
-  .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  }
-  
-  /* Top right text */
-  .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  }
-  
-  /* Bottom right text */
-  .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  }
+.container {
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
 
-  .navbar {
-    font-family: 'Space Mono', monospace;
-  }
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
 
-  .card {
-    margin: 10px;
-  }
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
 
-  .project-cards {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.navbar {
+  font-family: 'Space Mono', monospace;
+}
+
+.card {
+  margin: 20px;
+  border-width: 2px;
+}
+
+.card-header {
+  background-color:transparent;
+  padding: 0px;
+}
+
+.badges {
+  padding-bottom:15px;
+}
+
+.badge-component {
+  padding: 3px;
+  font-weight: 500;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 400;
+  padding:5px;
+}
+
+.explore-this {
+  padding-top:15px;
+  background-color:transparent;
+}
+
+.project-cards {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 10px;
+  border-width: 2px;
+}
