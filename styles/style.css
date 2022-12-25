@@ -104,3 +104,8 @@ h4 {
   margin: 10px;
   border-width: 2px;
 }
+
+.navbar-svg {
+  vertical-align: middle;
+  margin-left: 10px;
+}
